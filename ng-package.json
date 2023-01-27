@@ -1,0 +1,50 @@
+{
+    "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+    "lib": {
+        "entryFile": "./src/public_api.ts",
+        "umdModuleIds": {
+            "path": "path",
+            "fs": "fs",
+            "http": "http",
+            "axios": "axios",
+            "tsyringe": "tsyringe",
+            "express": "express",
+            "socket.io": "socket.io",
+            "routing-controllers-openapi": "routing-controllers-openapi",
+            "routing-controllers": "routing-controllers",
+            "socket-controllers": "socket-controllers",
+            "uuid": "uuid",
+            "sharp": "sharp",
+            "rimraf": "rimraf",
+            "nodemailer": "nodemailer",
+            "handlebars": "handlebars",
+            "class-transformer/storage": "class-transformer/storage",
+            "class-validator": "class-validator",
+            "class-validator-jsonschema": "class-validator-jsonschema",
+            "body-parser": "body-parser",
+            "jsonwebtoken": "jsonwebtoken",
+            "mongoose": "mongoose",
+            "mongoose/lib/utils": "mongoose-lib-utils",
+            "stream": "stream",
+            "bson": "bson",
+            "fontkit": "fontkit",
+            "file-type": "file-type",
+            "mongodb": "mongodb",
+            "dotenv": "dotenv",
+            "node-resque": "node-resque",
+            "node-cron": "node-cron",
+            "ioredis": "ioredis",
+            "socket.io-client": "socket.io-client",
+            "cacheman-mongodb": "cacheman-mongodb",
+            "bcrypt": "bcrypt",
+            "moment": "moment",
+            "child_process": "child_process",
+            "crypto": "crypto",
+            "zeromq": "zeromq"
+        }
+    },
+    "deleteDestPath": false,
+    "allowedNonPeerDependencies": [
+        "."
+    ]
+}
